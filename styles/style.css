@@ -4,6 +4,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
     /* Full height */
     height: 100%; 
@@ -19,9 +20,7 @@ body, html {
 
 /* Separate card decks */
 .card-deck {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 50px 20px 10px 20px;
 }
 
 /* Center Card decks */
