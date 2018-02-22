@@ -1,9 +1,6 @@
 body, html {
-    height: 100%;
-}
-.bg { 
     /* The image used */
-    background-image: url("/images/backgrounds/totoro.jpg");
+    background-image: url("https://plasmadice.github.io/project-gallery/images/backgrounds/totoro.jpg");
 
     /* Full height */
     height: 100%; 
@@ -15,8 +12,9 @@ body, html {
 
     /* Fill in Background Color */
     background-color: #393939;
-}    
+}
 
+/* Limit the size of social media icons */
 .nav-link img {
     width: 30px;
     height: 30px;
@@ -30,7 +28,6 @@ body, html {
 /* Center Card decks */
 .projects {
     height: 50%;
-    width: 50%;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
