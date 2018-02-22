@@ -1,17 +1,14 @@
 body, html {
-    /* The image used */
-    background-image: url("https://plasmadice.github.io/project-gallery/images/backgrounds/totoro.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
+    /* The image used and a fallback background color*/
+    background: url("../images/backgrounds/totoro.jpg") #393939;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+    /* Full height */
+    height: 100%; 
+
     /* Fill in Background Color */
-    background-color: #393939;
 }
 
 /* Limit the size of social media icons */
@@ -23,6 +20,8 @@ body, html {
 /* Separate card decks */
 .card-deck {
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Center Card decks */
