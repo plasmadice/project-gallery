@@ -1,8 +1,12 @@
-html {
-    /* Consolidated background settings */
-    background: url("../images/backgrounds/totoro.jpg") center / cover no-repeat #393939;
-
+.bg {
+    /* Background settings */
+    background: url("../images/backgrounds/totoro.jpg") center no-repeat #393939;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 /* Limit the size of social media icons */
