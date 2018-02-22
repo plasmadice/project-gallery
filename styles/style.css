@@ -1,4 +1,4 @@
-body, html {
+html {
     /* The image used and a fallback background color*/
     background: url("../images/backgrounds/totoro.jpg") #393939;
     background-position: center;
