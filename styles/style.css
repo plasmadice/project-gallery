@@ -1,4 +1,4 @@
-body, html {
+body {
     /* The image used and a fallback background color*/
     background: url("../images/backgrounds/totoro.jpg") #393939;
     background-position: center;
@@ -16,6 +16,14 @@ body, html {
 .nav-link img {
     width: 30px;
     height: 30px;
+
+    /* Space between icons, especially when collapse */
+    margin: 0 5px 0 5px;
+}
+
+/* Over-ride default flex-direction. Forces rows */
+.navbar-nav {
+    flex-direction: row
 }
 
 /* Separate card decks */
@@ -29,7 +37,7 @@ body, html {
 
 /* Center Card decks */
 .projects {
-    height: 50%;
+    height: 70%;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
