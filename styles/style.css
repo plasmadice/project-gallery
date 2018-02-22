@@ -19,13 +19,17 @@ body, html {
 }
 
 /* Separate card decks */
-.card-deck {
+.cards-top {
     margin: 50px 20px 10px 20px;
+}
+
+.cards-bottom {
+    margin: 10px 20px 10px 20px;
 }
 
 /* Center Card decks */
 .projects {
-    height: 50%;
+    height: 60%;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
