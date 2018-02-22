@@ -1,4 +1,4 @@
-#Herman's Project Portfolip/Gallery
+# Herman's Project Portfolip/Gallery
 
 [View this repository live.](https://plasmadice.github.io/project-gallery/)
 
@@ -8,4 +8,4 @@ My first iteration of the landing page died in a tragic git rm -r -f accident. L
 
 The landing page is made using bootstrap.
 
-#Thank you for viewing this repository
+## Thank you for viewing this repository
