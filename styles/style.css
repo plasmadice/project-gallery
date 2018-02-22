@@ -24,12 +24,12 @@ body, html {
 }
 
 .cards-bottom {
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 5px 20px;
 }
 
 /* Center Card decks */
 .projects {
-    height: 60%;
+    height: 50%;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
